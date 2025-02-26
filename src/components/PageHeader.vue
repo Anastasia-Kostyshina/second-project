@@ -8,6 +8,7 @@
         </div>
         <nav class="page-header__nav">
           <router-link to="/" class="page-header__nav-item">Главная</router-link>
+          <router-link to="/favourites" class="page-header__nav-item">Избранное</router-link>
           <router-link to="/rules" class="page-header__nav-item">Правила</router-link>
           <router-link :to="{path: '/contacts', query: contacts}" class="page-header__nav-item">Контакты</router-link>
         </nav>

@@ -18,6 +18,11 @@ const routes = [
     component: () => import("@/pages/rules")
   },
   {
+    path: "/favourites",
+    name: "favourites",
+    component: () => import("@/pages/favourites")
+  },
+  {
     path: "/:id",
     name: "card",
     component: () => import("@/components/home/HomeCardDetail")
